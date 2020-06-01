@@ -7,7 +7,7 @@ function Footer(props) {
 
   return (
     <footer className="fadeInUp" style={{animationDelay: '2s'}}>
-      <h5>{t('We stand with everyone fighting on the frontlines')}</h5>
+      {/*<h5>{t('We stand with everyone fighting on the frontlines')}</h5>
 
       <div className="link">
         <a
@@ -59,6 +59,7 @@ function Footer(props) {
         <Icon.MessageCircle />
         <span>{t('Join Telegram to Collaborate!')}</span>
       </a>
+      */}
     </footer>
   );
 }
