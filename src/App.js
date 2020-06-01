@@ -53,31 +53,10 @@ function App() {
       showInNavbar: true,
     },
     {
-      pageLink: '/demographics',
-      view: Demographics,
-      displayName: t('Demographics'),
-      animationDelayForNavbar: 0.3,
-      showInNavbar: true,
-    },
-    {
       pageLink: '/deepdive',
       view: DeepDive,
       displayName: t('Deep Dive'),
       animationDelayForNavbar: 0.4,
-      showInNavbar: true,
-    },
-    {
-      pageLink: '/essentials',
-      view: Essentials,
-      displayName: t('Essentials'),
-      animationDelayForNavbar: 0.5,
-      showInNavbar: true,
-    },
-    {
-      pageLink: '/about',
-      view: FAQ,
-      displayName: t('About'),
-      animationDelayForNavbar: 0.6,
       showInNavbar: true,
     },
     {
