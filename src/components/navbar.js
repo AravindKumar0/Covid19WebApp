@@ -81,13 +81,23 @@ function Navbar({pages, darkMode, setDarkMode}) {
               </Link>
             </span>
             <span>
-               <Link to="/demographics">
+              <Link to="/demographics">
                 <Icon.Users {...activeNavIcon('/demographics')} />
               </Link>
             </span>
             <span>
               <Link to="/deepdive">
                 <Icon.BarChart2 {...activeNavIcon('/deepdive')} />
+              </Link>
+            </span>
+            <span>
+              <Link to="/essentials">
+                <Icon.Package {...activeNavIcon('/essentials')} />
+              </Link>
+            </span>
+            <span>
+              <Link to="/about">
+                <Icon.HelpCircle {...activeNavIcon('/about')} />
               </Link>
             </span>
           </React.Fragment>
