@@ -81,6 +81,11 @@ function Navbar({pages, darkMode, setDarkMode}) {
               </Link>
             </span>
             <span>
+               <Link to="/demographics">
+                <Icon.Users {...activeNavIcon('/demographics')} />
+              </Link>
+            </span>
+            <span>
               <Link to="/deepdive">
                 <Icon.BarChart2 {...activeNavIcon('/deepdive')} />
               </Link>
